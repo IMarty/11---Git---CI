@@ -30,7 +30,12 @@
 "fetch" is a command to check is their are update on the ONLINE repository
 "pull" when you need to download modification from the ONLINE repository
 
+## Branches
 
-I am the best teacher.
+All repository can have multiple branches and you can change/create branches using the **checkout** command.
 
-Every modificioatn will only be on that branch and not the master
+At that point in time multiple version of the same website will therefor exists : the one from the "main"  branch and the one from the "second" branch.
+
+Conflicts can happen we you want to **merge** modifications from both branch together.
+
+For example, two developper can work on the mobile version of the website and one of them apply a background color red, and the other one wants blue. We will need to decide what change is finally applied.
