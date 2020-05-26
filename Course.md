@@ -23,4 +23,9 @@
   - You can create a .gitignore file to specify files/folders to ignore for the sync up
 
 1 - 'Add' (git add *) -> What local files are going to change
-2 - 'Commit' (git commit -m 'your comment') -> take a snapshot of your modifications and name them
+2 - 'Commit' (git commit -m 'your comment') -> take a snapshot of your LOCAL modifications and name them
+3 - 'Push' (git push master) -> Collects all LOCAL commits and put them ONLINE
+4 - 'Deploy' (no CLI / rely on Continuous Integration) -> All change to the source code get built together on the final website (replace the drap on drop on Netlify)
+
+"fetch" is a command to check is their are update on the ONLINE repository
+"pull" when you need to download modification from the ONLINE repository
