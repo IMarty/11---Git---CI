@@ -39,3 +39,19 @@ At that point in time multiple version of the same website will therefor exists 
 Conflicts can happen we you want to **merge** modifications from both branch together.
 
 For example, two developper can work on the mobile version of the website and one of them apply a background color red, and the other one wants blue. We will need to decide what change is finally applied.
+
+# Continuous Integration - CI
+
+The problem with the usual process is that :
+
+- Update happens once or twice a year due to the time and effort it takes to merge/build/test
+- The developper got feedack on its code only when the testing team are on his part of the website and need to understand that the problem my come from the interaction of his code with the one of someone else
+
+Continous integration means that the build/test happens on every commit so that the testing team can test a feature when it's actually ready. The developper will have feedback very soon after to make other change. And we a feature/Bugfix to depolyement is done right after.
+
+Lets make a continous integration website that everybody will be able to code on.
+original ...
+feature 1 :  requirement (1 month) -> code (20 days) -> test (10day) -> release v1.0
+feature 2 :  requirement -> code -> test -> release v1.1
+feature 3 :  requirement -> code -> test -> release v1.2
+
