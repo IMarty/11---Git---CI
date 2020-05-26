@@ -29,3 +29,6 @@
 
 "fetch" is a command to check is their are update on the ONLINE repository
 "pull" when you need to download modification from the ONLINE repository
+
+
+I am a good teacher.
